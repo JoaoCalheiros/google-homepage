@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Homepage</title>        
+        <link rel="stylesheet" href="style.css">  
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+    </head>
+    <body>
+        <nav class="nav">                                 
+            <a class="nav-link" href="#">Gmail</a>
+            <a class="nav-link" href="#">Imagens</a>
+            <button type="button" class="apps"><i class="material-icons">apps</i></button>
+            <button type="button" class="sign-in" href="#">Entrar</button>           
+        </nav>    
+        <main class="main-body">
+            <img alt="Google logo" class="logo" src="Images/google-logo.png">
+            <div class="wrapper">
+                <div class="search-bar">
+                    <div class="search-btn">
+                        <i class="material-icons">search</i>
+                    </div>
+                    <input class="search-input" id="input" type="text" onclick="mark(this)">                               
+                </div>
+            </div>
+            <form action="search.html" class="main-buttons ">
+                <button class="search-button" type="submit">Pesquisa Google</button>
+                <button class="search-button" type="submit">Sinto-me com sorte</button>
+            </form>
+            <p>Google oferecido em: <a href="#" style="text-decoration-line: underline; color: blue;">Inglês (Portugal)</a></p> 
+        </main> 
+        <footer class="footer">
+            <nav class="text">
+                <p class="country">Portugal</p>
+            </nav>
+            <nav class="bottom-nav-left">
+                <a class="nav-left" href="#">Sobre</a> 
+                <a class="nav-left" href="#">Publicidade</a>
+                <a class="nav-left" href="#">Negócios</a>
+                <a class="nav-left" href="#">Como funciona a Pesquisa</a>
+            </nav>
+            <nav class="bottom-nav-right">
+                <a class="nav-right" href="#">Privacidade</a>
+                <a class="nav-right" href="#">Termos</a>
+                <a class="nav-right" href="#">Definições</a>
+            </nav>
+        </footer>
+    </body>
+</html>
